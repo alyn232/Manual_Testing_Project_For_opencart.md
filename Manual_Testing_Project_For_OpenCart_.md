@@ -8,13 +8,22 @@ Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+The below stories were created in Jira and describes the functional specifications of the "Wish list" , "Seach box", "What to do next?", "Products list" and "Checkout" modules, for which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+[Wish List.pdf](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/files/14461902/Wish.List.pdf)
+
+[Search box.pdf](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/files/14461901/Search.box.pdf)
+
+[What to do next.pdf](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/files/14461900/What.to.do.next.pdf)
+
+[Products list.pdf](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/files/14461899/Products.list.pdf)
+
+![Checkout Button](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/61038d77-0df1-4f40-ab4a-78110260351d)
+
 
 Here you can find the release that was created for this project:
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+![Release](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/8bbc61ee-b3ee-4fe1-8b0b-001e521d18c3)
 
 <h2>Testing process</h2>
 
@@ -37,34 +46,49 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**-smoke test passed 
-	-testing environment is up and running**
+-Smoke test passed 
+-Testing environment is up and running
+-Potential project risks are detected and mitigated
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**-95% of tests are passed
-	-no Critical issues have Open status
-	-update tests are 100% passed (update tests will not generate other new issues that impact the application))**
+-95% of tests are passed
+-No Critical issues have Open status
+-Update tests are 100% passed (update tests will not generate other new issues that impact the application))
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
+- For **Shopping cart module** the functionalities in scope are related to the accesibility of the user to edit and submit an order by choosing the quantity of products, the payment and delivery methods and by filling the delivery informtions and the discount code boxes.
+- For **The header module** the functionalities in scope are related to accesibility of the user to search and add products to wishlist
 **(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+- Throughout the testing process we will perform functional testing and some types of non-functional testing (like usability testing), positive testing and negative testing and also, as needed, we will perform retesting and regression testing. 
+- Some other types of testing that might be performed if necessary are smoke testing and sanity testing. 
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+- All the other modules, except "Shopping cart" and "The header" modules will not be tested throughout this project.
+- For "The header" module we will not test the "Shopping cart" and "Checkout" buttons because we will already test them in the previous module.
+- Being a demo web application, the performance and security testing is out of scope for this project
 
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+- The lack of knowledge of the team
+- Difficulties in understanding the bussines requirements
+- Delays in testing process caused by the testing environment not being ready in time
+- Delays caused by the lack of personnel
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+- Stability risks (crashes, disconnects, etc)
+- Malfunction when the PHP settings are not properly turned on
+- Safari browser might slow down the application
+- The web page pagination could be impacted when opened on mobile devices
+- Stress conditions might impact the web application
+- New browser might not be supported
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -73,13 +97,15 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 <h3>1.2 Test Monitoring and Control<h3>
 
 **(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+![Screenshot 2024-02-16 200420](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/4bd45a5d-8c6b-4d60-85f7-82f6d36ab58a)
+
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements. <br><br>
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+![Tests list](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/f9727c49-cb2b-4b5c-a18d-52541c6fff45)
 
 <h3>1.4 Test Design</h3>
 
@@ -93,11 +119,21 @@ The following elements are needed to be ready before the test execution phase be
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: OpenCart-v1-tests
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Bugs have been created based on the failed tests. The complete bug reports can be found here: ![Bugs list](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/da609087-4d5f-4b2d-a9dd-4a0112874f69)
+
 
 The following is a summary of the bugs that have been found
+
+- When clicking on the product image the image size is not increasing (severity - major;  priority - low)
+- When typing text in the quantity box we are not receiving an error message (severity - minor;  priority - low)
+- The valid coupon code is not working (severity - critical; priority - medium )
+- Shipping method drop down button can not be clicked (severity - blocked; priority - high)
+- Payment method rubric can not be clicked (severity - blocked;  priority - high)
+- An error message is not displayed when putting numbers in the Last/First Name text box (severity - minor; priority - low)
+- Search Box returns an error page (severity - critical; priority - high)
+  
 **(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
@@ -105,14 +141,19 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 1.7 Test Completion
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here:  ![Tracebility Matrix](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/e163ca95-5e88-4d77-a72b-d766cd84f3d8)
+
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+![Screenshot 2024-02-16 201202](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/0af46721-829f-46e5-b612-d9628e427011)
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+The final report shows that a number of 7 tests have failed of a total of 13
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+A number of 7 total bugs were found, from which the priority is: 2 are high and 4 are medium.
+
+In conclusion, a number of 13 tests were created and executed which cover 60% of the tests in scope. The aplication is not stable enough to go to production because we found critical errors that don't allow the user to complete an order, namely the payment and shipping methods can't be clicked. Also, we were not able to fully test the "Search" and "Wishlist" functionalities due to lack of time.
+My recomandation is that we can exclude the "Shopping cart" and "Checkout" buttons from the header, because we already have a big "Shoping cart" button near the one that it is in the header and when we click this button we are redirected into a page that also contain "Checkout" button.
+
+
