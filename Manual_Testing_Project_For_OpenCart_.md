@@ -62,7 +62,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 - For **Shopping cart module** the functionalities in scope are related to the accesibility of the user to edit and submit an order by choosing the quantity of products, the payment and delivery methods and by filling the delivery informtions and the discount code boxes.
 - For **The header module** the functionalities in scope are related to accesibility of the user to search and add products to wishlist
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
 - Throughout the testing process we will perform functional testing and some types of non-functional testing (like usability testing), positive testing and negative testing and also, as needed, we will perform retesting and regression testing. 
 - Some other types of testing that might be performed if necessary are smoke testing and sanity testing. 
 
@@ -96,9 +95,12 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+- We will have daily test status report which should also include the notification of any deviation from the plan
+- Keeping an eye on resource allocation and utilization
+- Checking the schedule and timeline is on track.
+  By implementing these monitor and control activities we have visibility into whether the testing is on track, whether the quality goals are being met, and whether any corrective actions are required to ensure successful project outcomes
+  
 ![Screenshot 2024-02-16 200420](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/4bd45a5d-8c6b-4d60-85f7-82f6d36ab58a)
-
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <br><br>
@@ -109,20 +111,23 @@ The following test conditions were found: <br>
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here [TestCases.pdf](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/files/14469842/TestCases.pdf)
+
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+-	All the test data is available and reviewed (test data= email examples, password examples, different type of currency, different types of credit cards)
+-	Test environment is validated through smoke testing.
+-	We make sure that all the test data are created (test data= user and password examples, voucher code examples, different types of credit cards)
+-	we prioritize the tests based on risks and business priority
 
 <h3>1.6. Test Execution </h3>
 
 Test cases are executed on the created test Cycle summary: OpenCart-v1-tests
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: ![Bugs list](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/da609087-4d5f-4b2d-a9dd-4a0112874f69)
-
 
 The following is a summary of the bugs that have been found
 
@@ -133,8 +138,6 @@ The following is a summary of the bugs that have been found
 - Payment method rubric can not be clicked (severity - blocked;  priority - high)
 - An error message is not displayed when putting numbers in the Last/First Name text box (severity - minor; priority - low)
 - Search Box returns an error page (severity - critical; priority - high)
-  
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
@@ -143,11 +146,9 @@ As the Exit criteria were met and satisfied as mentioned in the appropriate sect
 
 The traceability matrix was generated and can be found here:  ![Tracebility Matrix](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/e163ca95-5e88-4d77-a72b-d766cd84f3d8)
 
-
 Test execution chart was generated and can be found below. 
 
 ![Screenshot 2024-02-16 201202](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/0af46721-829f-46e5-b612-d9628e427011)
-
 
 The final report shows that a number of 7 tests have failed of a total of 13
 
