@@ -52,9 +52,11 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
--95% of tests are passed
--No Critical issues have Open status
--Update tests are 100% passed (update tests will not generate other new issues that impact the application))
+- It is necessary to have a thorough understanding of the application flow.
+- The test plan document must be completed.
+- 95% of tests are passed
+- No Critical issues have Open status
+- Update tests are 100% passed (update tests will not generate other new issues that impact the application))
 
 <h4> 1.1.4 Test scope</h4>
 
@@ -94,10 +96,10 @@ The plan identifies the items to be tested, the features to be tested, the types
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 <h3>1.2 Test Monitoring and Control<h3>
-
+  
 - We will have daily test status report which should also include the notification of any deviation from the plan
 - Keeping an eye on resource allocation and utilization
-- Checking the schedule and timeline is on track.
+- Checking the schedule and timeline is on track
   By implementing these monitor and control activities we have visibility into whether the testing is on track, whether the quality goals are being met, and whether any corrective actions are required to ensure successful project outcomes
   
 ![Screenshot 2024-02-16 200420](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/assets/160262559/4bd45a5d-8c6b-4d60-85f7-82f6d36ab58a)
