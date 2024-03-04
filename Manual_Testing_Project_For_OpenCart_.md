@@ -33,7 +33,8 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the Opencart application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here [Test Plan - Opencart.docx](https://github.com/alyn232/Manual_Testing_Project_For_opencart.md/files/14480880/Test.Plan.-.Opencart.docx)
+
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
@@ -46,13 +47,15 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
--Smoke test passed 
--Testing environment is up and running
--Potential project risks are detected and mitigated
+- It is necessary to have a thorough understanding of the application flow.
+- Smoke test passed 
+- Testing environment is up and running
+- Potential project risks are detected and mitigated
+- Relevant data, such as user profiles, discount voucher codes, and credit card informations should be prepared and available for testing
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-- It is necessary to have a thorough understanding of the application flow.
+
 - The test plan document must be completed.
 - 95% of tests are passed
 - No Critical issues have Open status
@@ -77,7 +80,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h5>Project risks:</h5>
 
-- The lack of knowledge of the team
+- The team's lack of experience
 - Difficulties in understanding the bussines requirements
 - Delays in testing process caused by the testing environment not being ready in time
 - Delays caused by the lack of personnel
@@ -95,7 +98,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+<h3>1.2 Test Monitoring and Control</h3>
   
 - We will have daily test status report which should also include the notification of any deviation from the plan
 - Keeping an eye on resource allocation and utilization
